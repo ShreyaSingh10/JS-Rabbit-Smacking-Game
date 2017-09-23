@@ -77,7 +77,8 @@
 				if(!e.isTrusted) return;
 				score++;
 				this.classList.remove('up');
-				scoreBoard.textContent = score;
+				console.log(score); // loging score is important to see if value is being updated
+				scoreBoard[0].innerText = score;
 				//as u smack the mole it should go down so that u dont click it again
 
 			}
