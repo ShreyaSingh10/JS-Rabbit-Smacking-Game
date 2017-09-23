@@ -1,7 +1,7 @@
 html {
 	box-sizing: border-box;
 	font-size: 10px;
-	background: #ffc600;
+	background: pink;
 }
 
 *, *:before, *:after {
@@ -44,7 +44,7 @@ h1{
 
 .hole:after {
 	display: block;
-	background: url("./images/dirt.jpg") bottom center no-repeat;
+	background: url("./images/dirty.jpg") bottom center no-repeat;
 	background-size: contain;
 	content: '';
 	width: 100%;
@@ -55,7 +55,7 @@ h1{
 }
 
 .mole{
-	background: url("./images/mole.jpg") bottom center no-repeat;
+	background: url("./images/rabbit.png") bottom center no-repeat;
 	background-size: 60%;
 	position: absolute;
 	top: 100%;
